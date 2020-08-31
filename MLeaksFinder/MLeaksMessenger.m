@@ -12,7 +12,7 @@ static __weak UIAlertView *alertView;
 
 @implementation MLeaksMessenger
 
-static NSString * leakSavePath =  @"http://qm.soulapp-inc.cn/api/vulpix/vulpix_view/post_check_point_data/";
+static NSString * leakSavePath =  @"/";
 
 + (void)alertWithTitle:(NSString *)title message:(NSString *)message {
     [self alertWithTitle:title message:message delegate:nil additionalButtonTitle:nil];
